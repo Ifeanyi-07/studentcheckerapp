@@ -1,0 +1,79 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background: cornflowerblue;
+}
+
+#form{
+    width: 40%;
+    height: auto;
+    background: whitesmoke;
+    position: relative;
+    left: 300px;
+    top: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#name{
+    width: 400px;
+    height: 25px;
+    margin: 5px;
+    position: relative;
+    left: 50px;
+    border: 2px solid cornflowerblue;
+    border-radius: 15px;
+    /* margin-bottom: 5px; */
+}
+
+::placeholder{
+    text-align: center;
+    color: cornflowerblue;
+}
+
+select{
+    position: relative;
+    left: 56px;
+    width: 407px;
+    height: 29px;
+    top: 3px;
+    color: cornflowerblue;
+    margin-bottom: 10px;
+    border: 2px solid cornflowerblue;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+option{
+    color: cornflowerblue;
+    text-align: center;
+    
+}
+
+#error{
+    color: red;
+    position: relative;
+    left: 400px;
+    top: 20px;
+    font-size: 25px;
+}
+
+#subjectError{
+    color: red;
+    position: relative;
+    left: 660px;
+    top: 190px;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    background: cornflowerblue;
+    color: aliceblue;
+    position: relative;
+    left: 210px;
+    border: none;
+    border-radius: 3px;
+    bottom: 3px;
+    cursor: pointer;
+
+}
